@@ -2,7 +2,7 @@ package com.example.studybuddyai.chatgptfiles.network
 
 import com.example.studybuddyai.chatgptfiles.response.ChatRequest
 import com.example.studybuddyai.chatgptfiles.response.ChatResponse
-import com.example.picsolver20.chatgptfiles.utils.OPENAI_API_KEY
+import com.example.studybuddyai.chatgptfiles.utils.OPENAI_API_KEY
 import retrofit2.http.Body
 import retrofit2.http.Header
 import retrofit2.http.POST

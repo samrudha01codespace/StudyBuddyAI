@@ -15,7 +15,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.lifecycle.lifecycleScope
 import com.example.picsolver20.chatgptfiles.respository.ChatRepository
-import com.example.picsolver20.chatgptfiles.utils.ANSWERAFTEREDIT
+import com.example.studybuddyai.chatgptfiles.utils.ANSWERAFTEREDIT
 import com.example.studybuddyai.R
 import com.google.mlkit.vision.common.InputImage
 import com.google.mlkit.vision.text.TextRecognition

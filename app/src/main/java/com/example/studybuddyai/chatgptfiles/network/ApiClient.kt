@@ -1,6 +1,6 @@
 package com.example.studybuddyai.chatgptfiles.network
 
-import com.example.picsolver20.chatgptfiles.utils.BASE_URL
+import com.example.studybuddyai.chatgptfiles.utils.BASE_URL
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 

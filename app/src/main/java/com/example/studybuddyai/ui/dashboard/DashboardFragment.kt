@@ -25,12 +25,12 @@ import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import com.example.picsolver20.chatgptfiles.respository.ChatRepository
-import com.example.picsolver20.chatgptfiles.utils.ANSWERAFTEREDIT
-import com.example.picsolver20.chatgptfiles.utils.NetworkConnectivityObserver
-import com.example.picsolver20.chatgptfiles.utils.NetworkStatus
 import com.example.studybuddyai.MainActivity2
 import com.example.studybuddyai.R
 import com.example.studybuddyai.algorithm.Algorithm
+import com.example.studybuddyai.chatgptfiles.utils.ANSWERAFTEREDIT
+import com.example.studybuddyai.chatgptfiles.utils.NetworkConnectivityObserver
+import com.example.studybuddyai.chatgptfiles.utils.NetworkStatus
 import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.Firebase
 import com.google.firebase.auth.FirebaseAuth
@@ -176,7 +176,7 @@ class DashboardFragment : Fragment() {
                     "Correct the grammar",
                     recognizedText
                 )  // work to do
-                statuscorrectedTextView.text = "Corrected: ${ANSWERAFTEREDIT}"
+                statuscorrectedTextView.text = "Corrected: $ANSWERAFTEREDIT"
 
                 val algo = Algorithm()
                 val hululu = algo.calculateMarks(recognizedText, ANSWERAFTEREDIT)

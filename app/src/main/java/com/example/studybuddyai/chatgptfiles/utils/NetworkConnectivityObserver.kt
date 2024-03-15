@@ -1,4 +1,4 @@
-package com.example.picsolver20.chatgptfiles.utils
+package com.example.studybuddyai.chatgptfiles.utils
 
 import android.content.Context
 import android.net.ConnectivityManager

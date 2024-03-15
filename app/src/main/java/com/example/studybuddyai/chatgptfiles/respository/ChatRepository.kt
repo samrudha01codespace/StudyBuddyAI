@@ -3,9 +3,9 @@ package com.example.picsolver20.chatgptfiles.respository
 import com.example.studybuddyai.chatgptfiles.network.ApiClient
 import com.example.studybuddyai.chatgptfiles.response.ChatRequest
 import com.example.studybuddyai.chatgptfiles.response.Message
-import com.example.picsolver20.chatgptfiles.utils.ANSBEFOREEDIT
-import com.example.picsolver20.chatgptfiles.utils.ANSWERAFTEREDIT
-import com.example.picsolver20.chatgptfiles.utils.CHATGPT_MODEL
+import com.example.studybuddyai.chatgptfiles.utils.ANSBEFOREEDIT
+import com.example.studybuddyai.chatgptfiles.utils.ANSWERAFTEREDIT
+import com.example.studybuddyai.chatgptfiles.utils.CHATGPT_MODEL
 import java.sql.DriverManager.println
 
 

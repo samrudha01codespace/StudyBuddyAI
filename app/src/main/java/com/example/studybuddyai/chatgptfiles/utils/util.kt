@@ -1,4 +1,4 @@
-package com.example.picsolver20.chatgptfiles.utils
+package com.example.studybuddyai.chatgptfiles.utils
 
 enum class NetworkStatus{
     Available,Unavailable
