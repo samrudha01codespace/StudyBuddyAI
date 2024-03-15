@@ -59,36 +59,15 @@ To use StudyBuddy-AI, follow these steps:
 
 5. ## Getting start with code
 
-    (dependencies)
-    
-    implementation("androidx.core:core-ktx:1.12.0")
-    implementation("androidx.appcompat:appcompat:1.6.1")
-    implementation("com.google.android.material:material:1.11.0")
-    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
-    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
-
-    implementation ("com.google.android.gms:play-services-vision:10.0.0+") 
-
-    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
-    implementation("com.google.firebase:firebase-storage:20.3.0")
-    implementation ("com.google.mlkit:text-recognition:16.0.0")
-
-    testImplementation("junit:junit:4.13.2")
-    androidTestImplementation("androidx.test.ext:junit:1.1.5")
-    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
-
-
-
-   (IN App>scr>main>com/samrudhasolutions/bolo>utils>constants)
-
+   **Code Path is:** app/src/main/java/com/example/studybuddyai/chatgptfiles/utils/constants.kt
     
     const val BASE_URL="https://api.openai.com/v1/"
     const val CHATGPT_MODEL="gpt-3.5-turbo"
-    const val OPENAI_API_KEY="write your api key"  <- write your api key
+    const val OPENAI_API_KEY="YOUR OWN API KEY HERE" //WRITE THE GIVEN API KEY HERE...(SEE THE README FILE)
     var ANSBEFOREEDIT=""
     var ANSWERAFTEREDIT=""
   
-6. **Video Link of Instruction of App** - "https://www.youtube.com/watch?v=MKcIfZG_Qew".
+7. **Video Link of Instruction of App** - "https://www.youtube.com/watch?v=MKcIfZG_Qew".
 
 ## Technologies Used
 
