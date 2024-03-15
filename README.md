@@ -40,9 +40,9 @@ StudyBuddy-AI is powerful AI app for education , solving of image , grammer corr
 To use StudyBuddy-AI, follow these steps:
 
 1. **Installation**
-   - Download and install StudyBuddy-AI from this link - "https://fastupload.io/3DsLYXFImMokOAU/file".
+   - Download and install StudyBuddy-AI from this link - "https://drive.google.com/file/d/1LqHvS6o_xvjIpeE_3mkvSceGrLsPBNs6/view?usp=sharing" or "https://fastupload.io/yDDIvvHPSIqbA6T/file".
    - Ensure that your device has a working microphone for the grammar correction feature.
-
+     
 2. **Using Image Upload and Query Solver**
    - Navigate to the "Image Upload" screen.
    - Upload the image you want to ask queries about.
@@ -55,7 +55,7 @@ To use StudyBuddy-AI, follow these steps:
    - Speak an English sentence that you want to correct.
    - Stop speaking, and the corrected sentence will be displayed along with marks calculation.
   
-4. **Video Link of Instruction of App** - 
+4. **Video Link of Instruction of App** - "https://www.youtube.com/watch?v=MKcIfZG_Qew".
 
 ## Technologies Used
 
