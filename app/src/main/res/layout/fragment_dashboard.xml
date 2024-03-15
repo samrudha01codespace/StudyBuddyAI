@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/statusMicTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="Status: "
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/statusTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/statusMicTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:text="Corrected: "
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/ekharttd"
+            android:layout_width="151dp"
+            android:layout_height="153dp"
+            android:layout_below="@id/statusTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/hululu"
+            app:srcCompat="@drawable/buttonofvoice" />
+
+        <ImageButton
+            android:id="@+id/openMic"
+            android:layout_width="151dp"
+            android:layout_height="153dp"
+            android:layout_below="@id/statusTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/hululu1"
+            android:visibility="gone"
+            app:srcCompat="@drawable/buttonofvoice" />
+
+        <Button
+            android:id="@+id/jghbjri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ekharttd"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            android:text="History" />
+
+        <TextView
+            android:id="@+id/generatingMarks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ekharttd"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="250dp"
+            android:text="Marks: "
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </RelativeLayout>
+</ScrollView>

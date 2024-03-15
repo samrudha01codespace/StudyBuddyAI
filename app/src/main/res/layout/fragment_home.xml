@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/app_background"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="60dp">
+
+            <TextView
+                android:id="@+id/textView"
+                style="@android:style/Widget.TextView.SpinnerItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_background"
+                android:inputType="none"
+                android:padding="15dp"
+                android:text="Solution of your query will shown here!!"
+                android:textColor="#000000"
+                android:textIsSelectable="true" />
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:adjustViewBounds="true"
+                android:padding="15dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/gallary_icon" />
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/emailTextInputLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:textColorHint="@color/black"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:hint="Write your query here ....">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editTextUserInput"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/buttonSendImageAndText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Solve this query" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>
