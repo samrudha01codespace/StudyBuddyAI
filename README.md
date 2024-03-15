@@ -7,19 +7,19 @@ StudyBuddy-AI is powerful AI app for education , solving of image , grammer corr
 
 ## Screenshots:
 
-## Splash Screen:
+**Splash Screen:**
 
 ![3](https://github.com/samrudha01codespace/StudyBuddyAI/assets/144599345/16243f66-952d-47f0-bc98-8dd1738f21d6)
 
-## Login Page:
+**Login Page:**
 
 ![2](https://github.com/samrudha01codespace/StudyBuddyAI/assets/144599345/7f18bda5-a5d0-4b2a-8d33-8efa025e46f7)
 
-## Image Solver:
+**Image Solver:**
 
 ![4](https://github.com/samrudha01codespace/StudyBuddyAI/assets/144599345/5fab645e-3b32-4360-8029-66aae8ea0888)
 
-## Grammer Corrector:
+**Grammer Corrector:**
 
 ![1](https://github.com/samrudha01codespace/StudyBuddyAI/assets/144599345/ddbf1d24-a31a-4600-861e-3ea370d60b26)
 
