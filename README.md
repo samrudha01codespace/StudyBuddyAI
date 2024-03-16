@@ -71,7 +71,7 @@ Thank you for your interest in our project! To fully utilize the features of thi
 
 By following these steps, you'll be able to integrate the OpenAI API seamlessly into our project and unlock its full potential. If you encounter any issues or have questions, feel free to reach out to us for assistance.
 
-Note : This is an important to add API Key in the code.(This is required when you will run code.)
+**__This is an important to add API Key in the code.(This is required when you will run code.)__**
  
  **Code Path is:** app/src/main/java/com/example/studybuddyai/chatgptfiles/utils/constants.kt
   
