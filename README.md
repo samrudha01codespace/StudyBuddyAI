@@ -61,9 +61,11 @@ To use StudyBuddy-AI, follow these steps:
 
 Thank you for your interest in our project! To fully utilize the features of this application, you'll need to obtain your own API key from OpenAI. Here's how you can do it:
 
-1. **Sign up for an OpenAI Account:** If you haven't already, visit the [OpenAI website](https://openai.com) and sign up for a free account.
+1. **Sign up for an OpenAI Account:** If you haven't already, visit the [OpenAI website](https://openai.com/blog/openai-api) and sign up for a free account.
 
 2. **Access Your API Key:** Once you've signed up and logged in to your OpenAI account, navigate to the API section to obtain your API key. This key will allow you to access the OpenAI API and use its services.
+
+**API KEY SECTON LINK** - [Create your API Key here.](https://platform.openai.com/api-keys).
 
 3. **Configure Your API Key:** Once you have your API key, you'll need to configure the application to use it. Follow the instructions provided in the project documentation or source code to insert your API key where required.
 
