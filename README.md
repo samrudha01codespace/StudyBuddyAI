@@ -56,8 +56,10 @@ To use StudyBuddy-AI, follow these steps:
    - Stop speaking, and the corrected sentence will be displayed along with marks calculation.
   
 4. **Note:** Before installation , In Android Studio: Go to chatgptfile -> utils -> constants.kt -> Add your OpenAI API Key
-5. I can't provide the API key because API key is getting disabled.
-6. Note : This is an important to add API Key in the code.(This is required when you will run code , not in APK)
+
+API KEY DOCUMENT IS HERE :-  [API.KEY.odt](https://github.com/samrudha01codespace/StudyBuddyAI/files/14622987/API.KEY.odt)
+
+Note : This is an important to add API Key in the code.(This is required when you will run code.)
  
  **Code Path is:** app/src/main/java/com/example/studybuddyai/chatgptfiles/utils/constants.kt
   
