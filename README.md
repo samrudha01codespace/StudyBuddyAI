@@ -57,7 +57,19 @@ To use StudyBuddy-AI, follow these steps:
   
 4. **Note:** Before installation , In Android Studio: Go to chatgptfile -> utils -> constants.kt -> Add your OpenAI API Key
 
-API KEY DOCUMENT IS HERE :-  [API.KEY.odt](https://github.com/samrudha01codespace/StudyBuddyAI/files/14622987/API.KEY.odt)
+## Note: Using the OpenAI API Key
+
+Thank you for your interest in our project! To fully utilize the features of this application, you'll need to obtain your own API key from OpenAI. Here's how you can do it:
+
+1. **Sign up for an OpenAI Account:** If you haven't already, visit the [OpenAI website](https://openai.com) and sign up for a free account.
+
+2. **Access Your API Key:** Once you've signed up and logged in to your OpenAI account, navigate to the API section to obtain your API key. This key will allow you to access the OpenAI API and use its services.
+
+3. **Configure Your API Key:** Once you have your API key, you'll need to configure the application to use it. Follow the instructions provided in the project documentation or source code to insert your API key where required.
+
+4. **Protect Your API Key:** Remember to keep your API key confidential and avoid sharing it publicly, especially in code repositories or publicly accessible files like READMEs. Exposing your API key could lead to unauthorized usage and potential security risks.
+
+By following these steps, you'll be able to integrate the OpenAI API seamlessly into our project and unlock its full potential. If you encounter any issues or have questions, feel free to reach out to us for assistance.
 
 Note : This is an important to add API Key in the code.(This is required when you will run code.)
  
